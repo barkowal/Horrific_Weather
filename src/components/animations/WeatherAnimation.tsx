@@ -32,7 +32,7 @@ const bgColors = {
 
 const WeatherAnimation = ({ skyColorCode }: PrivateProps) => {
   const raindropCount = 100;
-  const cloudsCount = 35;
+  const cloudsCount = 4;
   const cloudsImages = [clouds_1, clouds_2, clouds_3, clouds_4];
   const isCloud = ![0, 3, 4].includes(skyColorCode.skyCode);
   const isRain = [3, 5, 7].includes(skyColorCode.skyCode);
