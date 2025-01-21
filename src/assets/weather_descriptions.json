@@ -1,0 +1,395 @@
+{
+	"0":{
+		"day":{
+			"description":"Słonecznie",
+			"image":"clear-day.svg",
+			"image":"assets/icons/clear-day.svg",
+			"skyCode": 0,
+			"english_description": "Sunny"
+		},
+		"night":{
+			"description":"Bezchmurnie",
+			"image":"assets/icons/clear-night.svg",
+			"skyCode": 0,
+			"english_description": "Clear"
+		}
+	},
+	"1":{
+		"day":{
+			"description":"Głównie Słonecznie",
+			"image":"assets/icons/mostly-clear-day.svg",
+			"skyCode": 0,
+			"english_description": "Mainly Sunny"
+		},
+		"night":{
+			"description":"Głównie Bezchmurnie",
+			"image":"assets/icons/mostly-clear-night.svg",
+			"skyCode": 0,
+			"english_description": "Mainly Clear"
+		}
+	},
+	"2":{
+		"day":{
+			"description":"Częściowe Zachmurzenie",
+			"image":"assets/icons/partly-cloudy-day.svg",
+			"skyCode": 1,
+			"english_description": "Partly Cloudy"
+		},
+		"night":{
+			"description":"Częściowe Zachmurzenie",
+			"image":"assets/icons/partly-cloudy-night.svg",
+			"skyCode": 1,
+			"english_description": "Partly Cloudy"
+		}
+	},
+	"3":{
+		"day":{
+			"description":"Zachmurzenie",
+			"image":"assets/icons/cloudy.svg",
+			"skyCode": 1,
+			"english_description": "Cloudy"
+		},
+		"night":{
+			"description":"Zachmurzenie",
+			"image":"assets/icons/cloudy.svg",
+			"skyCode": 1,
+			"english_description": "Cloudy"
+		}
+	},
+	"45":{
+		"day":{
+			"description":"Zamglenie",
+			"image":"assets/icons/fog.svg",
+			"skyCode": 2,
+			"english_description": "Foggy"
+		},
+		"night":{
+			"description":"Zamglenie",
+			"image":"assets/icons/fog.svg",
+			"skyCode": 2,
+			"english_description": "Foggy"
+		}
+	},
+	"48":{
+		"day":{
+			"description":"Szron",
+			"image":"assets/icons/glazeice.svg",
+			"skyCode": 0,
+			"english_description": "Rime Fog"
+		},
+		"night":{
+			"description":"Szron",
+			"image":"assets/icons/glazeice.svg",
+			"skyCode": 0,
+			"english_description": "Rime Fog"
+		}
+	},
+	"51":{
+		"day":{
+			"description":"Lekka Mżawka",
+			"image":"assets/icons/drizzle.svg",
+			"skyCode": 3,
+			"english_description": "Light Drizzle"
+		},
+		"night":{
+			"description":"Lekka Mżawka",
+			"image":"assets/icons/drizzle.svg",
+			"skyCode": 3,
+			"english_description": "Light Drizzle"
+		}
+	},
+	"53":{
+		"day":{
+			"description":"Mżawka",
+			"image":"assets/icons/drizzle.svg",
+			"skyCode": 3,
+			"english_description": "Drizzle"
+		},
+		"night":{
+			"description":"Mżawka",
+			"image":"assets/icons/drizzle.svg",
+			"skyCode": 3,
+			"english_description": "Drizzle"
+		}
+	},
+	"55":{
+		"day":{
+			"description":"Silna Mżawka",
+			"image":"assets/icons/drizzle.svg",
+			"skyCode": 5,
+			"english_description": "Heavy Drizzle"
+		},
+		"night":{
+			"description":"Silna Mżawka",
+			"image":"assets/icons/drizzle.svg",
+			"skyCode": 5,
+			"english_description": "Heavy Drizzle"
+		}
+	},
+	"56":{
+		"day":{
+			"description":"Lekka Przymrozkowa Mżawka",
+			"image":"assets/icons/sleet.svg",
+			"skyCode": 3,
+			"english_description": "Light Freezing Drizzle"
+		},
+		"night":{
+			"description":"Lekka Przymrozkowa Mżawka",
+			"image":"assets/icons/sleet.svg",
+			"skyCode": 3,
+			"english_description": "Light Freezing Drizzle"
+		}
+	},
+	"57":{
+		"day":{
+			"description":"Mroźna mżawka",
+			"image":"assets/icons/sleet.svg",
+			"skyCode": 3,
+			"english_description": "Freezing Drizzle"
+		},
+		"night":{
+			"description":"Mroźna mżawka",
+			"image":"assets/icons/sleet.svg",
+			"skyCode": 3,
+			"english_description": "Freezing Drizzle"
+		}
+	},
+	"61":{
+		"day":{
+			"description":"Lekki Deszcz",
+			"image":"assets/icons/rain.svg",
+			"skyCode": 3,
+			"english_description": "Light Rain"
+		},
+		"night":{
+			"description":"Lekki Deszcz",
+			"image":"assets/icons/rain.svg",
+			"skyCode": 3,
+			"english_description": "Light Rain"
+		}
+	},
+	"63":{
+		"day":{
+			"description":"Deszcz",
+			"image":"assets/icons/rain.svg",
+			"skyCode": 5,
+			"english_description": "Rain"
+		},
+		"night":{
+			"description":"Deszcz",
+			"image":"assets/icons/rain.svg",
+			"skyCode": 5,
+			"english_description": "Rain"
+		}
+	},
+	"65":{
+		"day":{
+			"description":"Mocny Deszcz",
+			"image":"assets/icons/rain.svg",
+			"skyCode": 5,
+			"english_description": "Heavy Rain"
+		},
+		"night":{
+			"description":"Mocny Deszcz",
+			"image":"assets/icons/rain.svg",
+			"skyCode": 5,
+			"english_description": "Heavy Rain"
+		}
+	},
+	"66":{
+		"day":{
+			"description":"Lekki Deszcz Z Przymrozkami",
+			"image":"assets/icons/freezingrain.svg",
+			"skyCode": 3,
+			"english_description": "Light Freezing Rain"
+		},
+		"night":{
+			"description":"Lekki Deszcz Z Przymrozkami",
+			"image":"assets/icons/freezingrain.svg",
+			"skyCode": 3,
+			"english_description": "Light Freezing Rain"
+		}
+	},
+	"67":{
+		"day":{
+			"description":"Deszcz Z Przymrozkami",
+			"image":"assets/icons/freezingrain.svg",
+			"skyCode": 3,
+			"english_description": "Freezing Rain"
+		},
+		"night":{
+			"description":"Deszcz Z Przymrozkami",
+			"image":"assets/icons/freezingrain.svg",
+			"skyCode": 3,
+			"english_description": "Freezing Rain"
+		}
+	},
+	"71":{
+		"day":{
+			"description":"Lekkie Opady Śniegu",
+			"image":"assets/icons/snow.svg",
+			"skyCode": 4,
+			"english_description": "Light Snow"
+		},
+		"night":{
+			"description":"Lekkie Opady Śniegu",
+			"image":"assets/icons/snow.svg",
+			"skyCode": 4,
+			"english_description": "Light Snow"
+		}
+	},
+	"73":{
+		"day":{
+			"description":"Opady Śniegu",
+			"image":"assets/icons/snow.svg",
+			"skyCode": 4,
+			"english_description": "Snow"
+		},
+		"night":{
+			"description":"Opady Śniegu",
+			"image":"assets/icons/snow.svg",
+			"skyCode": 4,
+			"english_description": "Snow"
+		}
+	},
+	"75":{
+		"day":{
+			"description":"Mocne Opady Śniegu",
+			"image":"assets/icons/snow.svg",
+			"skyCode": 6,
+			"english_description": "Heavy Snow"
+		},
+		"night":{
+			"description":"Mocne Opady Śniegu",
+			"image":"assets/icons/snow.svg",
+			"skyCode": 6,
+			"english_description": "Heavy Snow"
+		}
+	},
+	"77":{
+		"day":{
+			"description":"Płatki Śniegu",
+			"image":"assets/icons/snowflake.svg",
+			"skyCode": 4,
+			"english_description": "Snow Grains"
+		},
+		"night":{
+			"description":"Płatki Śniegu",
+			"image":"assets/icons/snowflake.svg",
+			"skyCode": 4,
+			"english_description": "Snow Grains"
+		}
+	},
+	"80":{
+		"day":{
+			"description":"Lekkie Przelotne Opady Deszczu",
+			"image":"assets/icons/drizzle.svg",
+			"skyCode": 3,
+			"english_description": "Light Showers"
+		},
+		"night":{
+			"description":"Lekkie Przelotne Opady Deszczu",
+			"image":"assets/icons/drizzle.svg",
+			"skyCode": 3,
+			"english_description": "Light Showers"
+		}
+	},
+	"81":{
+		"day":{
+			"description":"Przelotne Opady Deszczu",
+			"image":"assets/icons/drizzle.svg",
+			"skyCode": 3,
+			"english_description": "Showers"
+		},
+		"night":{
+			"description":"Przelotne Opady Deszczu",
+			"image":"assets/icons/drizzle.svg",
+			"skyCode": 3,
+			"english_description": "Showers"
+		}
+	},
+	"82":{
+		"day":{
+			"description":"Silne Przelotne Opady Deszczu",
+			"image":"assets/icons/drizzle.svg",
+			"skyCode": 5,
+			"english_description": "Heavy Showers"
+		},
+		"night":{
+			"description":"Silne Przelotne Opady Deszczu",
+			"image":"assets/icons/drizzle.svg",
+			"skyCode": 5,
+			"english_description": "Heavy Showers"
+		}
+	},
+	"85":{
+		"day":{
+			"description":"Lekkie Przelotne Opady Śniegu",
+			"image":"assets/icons/snow2.svg",
+			"skyCode": 4,
+			"english_description": "Light Snow Showers"
+		},
+		"night":{
+			"description":"Lekkie Przelotne Opady Śniegu",
+			"image":"assets/icons/snow2.svg",
+			"skyCode": 4,
+			"english_description": "Light Snow Showers"
+		}
+	},
+	"86":{
+		"day":{
+			"description":"Przelotne Opady Śniegu",
+			"image":"assets/icons/snow2.svg",
+			"skyCode": 4,
+			"english_description": "Snow Showers"
+		},
+		"night":{
+			"description":"Przelotne Opady Śniegu",
+			"image":"assets/icons/snow2.svg",
+			"skyCode": 4,
+			"english_description": "Snow Showers"
+		}
+	},
+	"95":{
+		"day":{
+			"description":"Burza",
+			"image":"assets/icons/thunderstorm.svg",
+			"skyCode": 7,
+			"english_description": "Thunderstorm"
+		},
+		"night":{
+			"description":"Burza",
+			"image":"assets/icons/thunderstorm.svg",
+			"skyCode": 7,
+			"english_description": "Thunderstorm"
+		}
+	},
+	"96":{
+		"day":{
+			"description":"Lekka Burza Z Opadami Gradu",
+			"image":"assets/icons/thunderstorm-hail.svg",
+			"skyCode": 8,
+			"english_description": "Light Thunderstorms With Hail"
+		},
+		"night":{
+			"description":"Lekka Burza Z Opadami Gradu",
+			"image":"assets/icons/thunderstorm-hail.svg",
+			"skyCode": 8,
+			"english_description": "Light Thunderstorms With Hail"
+		}
+	},
+	"99":{
+		"day":{
+			"description":"Burza Z Opadami Gradu",
+			"image":"assets/icons/thunderstorm-hail.svg",
+			"skyCode": 8,
+			"english_description": "Thunderstorm With Hail"
+		},
+		"night":{
+			"description":"Burza Z Opadami Gradu",
+			"image":"assets/icons/thunderstorm-hail.svg",
+			"skyCode": 8,
+			"english_description": "Thunderstorm With Hail"
+		}
+	}
+}

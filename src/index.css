@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --fs-xtraSmall: 0.5rem;
+  --fs-small: 1rem;
+  --fs-medium: 1.33rem;
+  --fs-large: 3.5rem;
+  --icon-large: 10rem;
+}
+
+
+@media (min-width:1024px) {
+  :root {
+    --fs-xtraSmall: 0.4rem;
+    --fs-small: 0.8rem;
+    --fs-medium: 0.95rem;
+    --fs-large: 3rem;
+    --icon-large: 8rem;
+  }
+}
+
+@media (min-width:1280px) {
+  :root {
+    --fs-xtraSmall: 0.45rem;
+    --fs-small: 0.9rem;
+    --fs-medium: 1.24rem;
+    --fs-large: 3.3rem;
+    --icon-large: 9rem;
+  }
+}
+
+@media (min-width:1536px) {
+  :root {
+    --fs-xtraSmall: 0.5rem;
+    --fs-small: 1rem;
+    --fs-medium: 1.33rem;
+    --fs-large: 3.5rem;
+    --icon-large: 10rem;
+  }
+}
+
+.chearful {
+  --sunny: 215, 225, 0;
+  --sad: 19, 32, 150;
+}
+
+.depressing {
+  --sunny: 195, 175, 0;
+  --sad: 244, 190, 250, 0.1;
+}
+
+.light {
+  --tile-bg: 255, 255, 255;
+  --tile-gradient-first: 199, 212, 213;
+  --tile-gradient-second: 223, 232, 233;
+  --tile-gradient-third: 250, 250, 250;
+
+  --bar-bg: 255, 255, 255;
+  --bar-button-bg: 223, 223, 223;
+  --bar-button-hover-bg: 210, 233, 233;
+
+  --card-top-bg: 193, 219, 225;
+  --card-bottom-bg: 194, 218, 230;
+
+  --shadow-bg: 255, 255, 255;
+  --bar-border-c: 0, 0, 0;
+
+  --big-font-c: 0, 0, 0;
+  --large-font-c: 14, 16, 19;
+  --medium-font-c: 23, 24, 27;
+  --small-font-c: 40, 42, 45;
+  --xtrasmall-font-c: 60, 64, 67;
+}
+
+
+.dark {
+  --tile-bg: 255, 255, 255;
+  --tile-gradient-first: 18, 18, 18;
+  --tile-gradient-second: 25, 25, 25;
+  --tile-gradient-third: 40, 52, 60;
+
+  --bar-bg: 0, 5, 5;
+  --bar-button-bg: 20, 20, 20;
+  --bar-button-hover-bg: 20, 23, 23;
+
+  --card-top-bg: 40, 40, 40;
+  --card-bottom-bg: 63, 63, 63;
+
+  --shadow-bg: 25, 25, 25;
+  --bar-border-c: 255, 255, 255;
+
+  --big-font-c: 252, 254, 247;
+  --large-font-c: 232, 234, 237;
+  --medium-font-c: 189, 193, 198;
+  --small-font-c: 154, 160, 166;
+  --xtrasmall-font-c: 198, 184, 239;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%
+}
+
+#rains {
+  height: 100vh;
+}
